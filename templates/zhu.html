@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <title>小书屋主页</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+<style>
+    h1 {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 50px;
+    font-size: 90px;
+    background: -webkit-linear-gradient(90deg, #e9e6ff 0%, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+    audio{
+    z-index: 5;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.1;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+</style>
+</head>
+<body>
+<audio controls autoplay>
+    <source src="../static/mp3/yinyue.mp3">
+</audio>
+
+<div id="background" class="wall"></div>
+<div id="midground" class="wall"></div>
+<div id="foreground" class="wall"></div>
+<div id="top" class="wall"><div style="text-align:center;">
+<h1 ><a href="/index"> 欢迎来到我的书屋！</a></h1>
+    <h2 >点击进入详细页哦！</h2>
+
+
+</div></div>
+
+
+
+</body>
+</html>
